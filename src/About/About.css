@@ -1,0 +1,19 @@
+.about-card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+
+}
+.btn1{
+    height: 40px;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .about-card{
+        height: 100%;
+    }
+    
+}

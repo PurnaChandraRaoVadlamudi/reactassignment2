@@ -1,0 +1,32 @@
+.break-btn{
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+}
+.break-fast{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 250px;
+    margin-bottom: 10px;
+}
+@media (min-width:480px )and (max-width:768px) {
+
+    .break-fast{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        flex-wrap: wrap;
+       
+    }
+
+.item{
+    width: 200px;
+    margin: 10px;
+}
+}
